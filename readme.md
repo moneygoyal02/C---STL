@@ -226,4 +226,9 @@ If the value is not found, it returns an iterator to the position where the valu
 
 
 
+
+In C++, when you access an element in an unordered_map that doesn't exist yet, the map automatically inserts the element with a default value. For integers, this default value is 0.
+
+
+
  
